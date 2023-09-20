@@ -43,14 +43,14 @@ body {
 }
 
 .calificacion {
-	font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    color: #ffffff;
-    background: #0a765bce;
-    width: 40px;
-	padding: 2px;
-	margin: 1px 1px 1px 90px;
+       font-size: 20px;
+       text-align: center;
+       font-weight: bold;
+       color: #ffffff;
+       background: #0a765bce;
+       width: 40px;
+       padding: 2px;
+       margin: 1px 1px 1px 90px;
 }
 
 .paginas {
