@@ -42,6 +42,7 @@ const mostrarSeries = async function () {
             let series = "";
             DATA.results.forEach(serie => {
                const URLSERIE = `https://api.themoviedb.org/3/tv/${serie.id}`;
+               const voteAverageRounded = Math.round(serie.vote_average * 10) / 10;
                series += `
                <div class="serie">
                    <div class="imagen-container">
@@ -50,7 +51,7 @@ const mostrarSeries = async function () {
                         </a>   
                    </div>
                     <h3 class="titulo">${serie.name}</h3>
-                    <p class="calificacion">${serie.vote_average}</p>
+                    <p class="calificacion">${voteAverageRounded}</p>
                 </div>` 
             });
 
